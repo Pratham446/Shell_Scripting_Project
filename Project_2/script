@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Script Name : aws.sh
+# Description : This script will report the aws resources usage
+# Author : Pratham Darji
+
+
+# to list the buckets
+aws s3 ls
+
+# list the Ec2
+aws ec2 describe-instances
